@@ -1,0 +1,10 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    background: #540045;
+}
+
+header, main{
+    display: flex;
+    justify-content: center;
+}
+
