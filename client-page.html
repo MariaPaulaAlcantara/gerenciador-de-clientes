@@ -61,8 +61,7 @@
 
                     <div class="input-box">
                         <label for="number">Celular</label>
-                        <input id="number" type="number" name="number" placeholder="(xx) xxxx-xxxx" required>
-                    </div>
+                        <input id="tel" type="tel" name="tel" maxlength="15" pattern="\(\d{2}\)\s*\d{5}-\d{4}" required>                    </div>
                 </div>
 
                 <div class="continue-button">
@@ -76,6 +75,7 @@
         </div>
     </main>
     
+    <script src="scripts/mascara-telefone.js"></script>
     <!-- <a href="index.html"><button> Voltar </button></a> -->
 </body>
 </html>
