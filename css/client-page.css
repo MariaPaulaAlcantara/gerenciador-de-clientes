@@ -66,6 +66,25 @@ body{
     color: #000000c0;
 }
 
+.back-button button{
+    border: none;
+    background-color: #ffb2c1;
+    margin: 2rem;
+    padding: 0.4rem 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.back-button button:hover{
+    background-color: #ce7096bd;
+}
+
+.back-button button a {
+    text-decoration: none;
+    font-weight: 500;
+    color: #fff;
+}
+
 .form-header h1::after {
     content: '';
     display: block;
