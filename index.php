@@ -38,7 +38,7 @@
         </div>
         </a>
 
-        <a href="painel-de-controle.html">
+        <a href="painel-de-controle.php">
         <div class="card card-2">
             <div class="card-header">
                 <img src="https://cdn.pixabay.com/photo/2020/08/30/14/57/beautician-5529805__340.jpg" class="card-img" />
