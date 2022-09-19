@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="css/page-login.css">
     <title>Document</title>
 </head>
 <body>
@@ -11,14 +13,20 @@
         <div>
             <h2>Login Fúncionarios</h2>
         </div>
-        
-        <div class="formularioDeLogin">
-            <form>
-                <div>
-                    <label>Usuario</label>
-                </div>
-                
-            </form>
+
+        <form class="formularioDeLogin">
+            <div class="campoLogin">
+                <label>Usuario</label>
+                <input id="name_usuario" type="text" name="nameUsuario" placeholder="Digite o usuario" required>
+            </div>
+            <div class="campoLogin">
+                <label>Senha</label>
+                <input id="senha_usuario" type="text" name="senhaUsuario" placeholder="Digite a senha" required>
+            </div>    
+        </form>
+
+        <div class="login-button">
+            <button><a>Login</a></button>
         </div>
     </div>
 </body>
