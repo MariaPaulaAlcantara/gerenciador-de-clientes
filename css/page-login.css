@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500&family=Open+Sans:wght@300;400;500;600&display=swap');
+
+body{
+    background: #ffb2c1;
+    font-family: 'Inter', sans-serif;
+}
+
+.container{
+    background: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 45px 80px 80px 80px;
+    border-radius: 7px;
+}
+
+div h2{
+    color:#000000c0;
+}
+
+.formularioDeLogin{
+    margin: 1.8rem 0 2rem 0;
+}
+
+.campoLogin{
+    display: grid;
+    margin: 15px 0 15px 0;
+}
+
+label{
+    margin-bottom: 10px;
+    font-size: 15px;
+}
+
+input:focus {
+    box-shadow: 0 0 0 0;
+    outline: 0;
+}
+
+input{
+    border: none;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.25);
+    padding-bottom: 6px;
+    font-size: 12px;
+}
+
+.login-button{
+    display: flex;
+    justify-content: center;
+}
+
+button{
+    border: none;
+    background-color: #ffb2c1;
+    margin: 1rem;
+    padding: 0.4rem 4rem;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.login-button button a {
+    text-decoration: none;
+    font-weight: 500;
+    color: #fff;
+}
